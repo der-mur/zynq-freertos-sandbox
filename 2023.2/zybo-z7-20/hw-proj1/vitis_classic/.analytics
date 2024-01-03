@@ -1,0 +1,19 @@
+timestamp=[2024-01-03 11:52:58], mode=WORKBENCH_START, duration=0:00:06.452, duration_ms=6452, data={}
+timestamp=[2024-01-03 11:52:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.391, duration_ms=391, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-01-03 11:53:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.795, duration_ms=1795, data={}
+timestamp=[2024-01-03 11:54:13], mode=PLATFORM_CREATION, duration=0:00:08.214, duration_ms=8214, data={platform_source=dsa, os=freertos10_xilinx, processor=ps7_cortexa9, platform=null}
+timestamp=[2024-01-03 11:54:44], mode=PLATFORM_GENERATION, duration=0:00:19.639, duration_ms=19639, data={name=freertos_single_core_pfm}
+timestamp=[2024-01-03 11:56:19], mode=PLATFORM_GENERATION, duration=0:00:06.619, duration_ms=6619, data={name=freertos_single_core_pfm}
+timestamp=[2024-01-03 11:56:44], mode=PLATFORM_GENERATION, duration=0:00:19.109, duration_ms=19109, data={name=freertos_single_core_pfm}
+timestamp=[2024-01-03 11:59:29], mode=APP_CREATION, duration=0:00:09.510, duration_ms=9510, data={name=queue_uart_cmd_handler, project_type=sdk, os=freertos10_xilinx, processor=cortex-a9, runtime=C/C++, platform=freertos_single_core_pfm, application_type=application}
+timestamp=[2024-01-03 12:00:21], mode=BUILD, duration=0:00:03.489, duration_ms=3489, data={name=queue_uart_cmd_handler, configuration=Debug, clean_build=false}
+timestamp=[2024-01-03 12:00:29], mode=BUILD, duration=0:00:07.661, duration_ms=7661, data={name=queue_uart_cmd_handler_system, configuration=Debug, clean_build=false}
+timestamp=[2024-01-03 12:01:45], mode=PLATFORM_GENERATION, duration=0:00:22.058, duration_ms=22058, data={name=freertos_single_core_pfm}
+timestamp=[2024-01-03 12:02:15], mode=PLATFORM_GENERATION, duration=0:00:09.119, duration_ms=9119, data={name=freertos_single_core_pfm}
+timestamp=[2024-01-03 12:02:52], mode=PLATFORM_GENERATION, duration=0:00:33.166, duration_ms=33166, data={name=freertos_single_core_pfm}
+timestamp=[2024-01-03 12:03:07], mode=PLATFORM_GENERATION, duration=0:00:09.235, duration_ms=9235, data={name=freertos_single_core_pfm}
+timestamp=[2024-01-03 12:03:08], mode=BUILD, duration=0:00:00.208, duration_ms=208, data={name=queue_uart_cmd_handler, configuration=Debug, clean_build=true}
+timestamp=[2024-01-03 12:03:08], mode=BUILD, duration=0:00:00.215, duration_ms=215, data={name=queue_uart_cmd_handler_system, configuration=Debug, clean_build=true}
+timestamp=[2024-01-03 12:03:46], mode=PLATFORM_GENERATION, duration=0:00:32.955, duration_ms=32955, data={name=freertos_single_core_pfm}
+timestamp=[2024-01-03 12:03:49], mode=BUILD, duration=0:00:02.900, duration_ms=2900, data={name=queue_uart_cmd_handler, configuration=Debug, clean_build=false}
+timestamp=[2024-01-03 12:03:57], mode=BUILD, duration=0:00:07.668, duration_ms=7668, data={name=queue_uart_cmd_handler_system, configuration=Debug, clean_build=false}

@@ -1,0 +1,72 @@
+11:52:55 DEBUG : Logs will be stored at 'F:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/IDE.log'.
+11:52:59 INFO  : Registering command handlers for Vitis TCF services
+11:52:59 INFO  : Launching XSCT server: xsct.bat -n  -interactive F:\Documents\GitHub\zynq-freertos-sandbox\2023.2\zybo-z7-20\hw-proj1\vitis_classic\temp_xsdb_launch_script.tcl
+11:53:00 INFO  : Platform repository initialization has completed.
+11:53:03 INFO  : XSCT server has started successfully.
+11:53:03 INFO  : Successfully done setting XSCT server connection channel  
+11:53:06 INFO  : plnx-install-location is set to ''
+11:53:06 INFO  : Successfully done setting workspace for the tool. 
+11:53:06 INFO  : Successfully done query RDI_DATADIR 
+11:54:11 INFO  : Result from executing command 'getProjects': freertos_single_core_pfm
+11:54:11 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_202320_1/xilinx_vck190_base_202320_1.xpfm;xilinx_vck190_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_dfx_202320_1/xilinx_vck190_base_dfx_202320_1.xpfm;xilinx_vek280_es1_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vek280_es1_base_202320_1/xilinx_vek280_es1_base_202320_1.xpfm;xilinx_vmk180_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vmk180_base_202320_1/xilinx_vmk180_base_202320_1.xpfm;xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+11:54:42 INFO  : Result from executing command 'getProjects': freertos_single_core_pfm
+11:54:42 INFO  : Result from executing command 'getPlatforms': freertos_single_core_pfm|F:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/freertos_single_core_pfm.xpfm;xilinx_vck190_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_202320_1/xilinx_vck190_base_202320_1.xpfm;xilinx_vck190_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_dfx_202320_1/xilinx_vck190_base_dfx_202320_1.xpfm;xilinx_vek280_es1_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vek280_es1_base_202320_1/xilinx_vek280_es1_base_202320_1.xpfm;xilinx_vmk180_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vmk180_base_202320_1/xilinx_vmk180_base_202320_1.xpfm;xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+11:56:16 INFO  : Result from executing command 'removePlatformRepo': 
+11:56:41 INFO  : Result from executing command 'getProjects': freertos_single_core_pfm
+11:56:41 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_202320_1/xilinx_vck190_base_202320_1.xpfm;xilinx_vck190_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_dfx_202320_1/xilinx_vck190_base_dfx_202320_1.xpfm;xilinx_vek280_es1_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vek280_es1_base_202320_1/xilinx_vek280_es1_base_202320_1.xpfm;xilinx_vmk180_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vmk180_base_202320_1/xilinx_vmk180_base_202320_1.xpfm;xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+12:00:18 INFO  : Checking for BSP changes to sync application flags for project 'queue_uart_cmd_handler'...
+12:01:43 INFO  : Result from executing command 'getProjects': freertos_single_core_pfm
+12:01:43 INFO  : Result from executing command 'getPlatforms': freertos_single_core_pfm|F:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/freertos_single_core_pfm.xpfm;xilinx_vck190_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_202320_1/xilinx_vck190_base_202320_1.xpfm;xilinx_vck190_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_dfx_202320_1/xilinx_vck190_base_dfx_202320_1.xpfm;xilinx_vek280_es1_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vek280_es1_base_202320_1/xilinx_vek280_es1_base_202320_1.xpfm;xilinx_vmk180_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vmk180_base_202320_1/xilinx_vmk180_base_202320_1.xpfm;xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+12:02:10 INFO  : Result from executing command 'removePlatformRepo': 
+12:02:50 INFO  : Result from executing command 'getProjects': freertos_single_core_pfm
+12:02:50 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_202320_1/xilinx_vck190_base_202320_1.xpfm;xilinx_vck190_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_dfx_202320_1/xilinx_vck190_base_dfx_202320_1.xpfm;xilinx_vek280_es1_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vek280_es1_base_202320_1/xilinx_vek280_es1_base_202320_1.xpfm;xilinx_vmk180_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vmk180_base_202320_1/xilinx_vmk180_base_202320_1.xpfm;xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+12:03:02 INFO  : Result from executing command 'removePlatformRepo': 
+12:03:44 INFO  : Result from executing command 'getProjects': freertos_single_core_pfm
+12:03:44 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_202320_1/xilinx_vck190_base_202320_1.xpfm;xilinx_vck190_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vck190_base_dfx_202320_1/xilinx_vck190_base_dfx_202320_1.xpfm;xilinx_vek280_es1_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vek280_es1_base_202320_1/xilinx_vek280_es1_base_202320_1.xpfm;xilinx_vmk180_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_vmk180_base_202320_1/xilinx_vmk180_base_202320_1.xpfm;xilinx_zcu102_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_202320_1/xilinx_zcu102_base_202320_1.xpfm;xilinx_zcu102_base_dfx_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu102_base_dfx_202320_1/xilinx_zcu102_base_dfx_202320_1.xpfm;xilinx_zcu104_base_202320_1|C:/Xilinx/Vitis/2023.2/base_platforms/xilinx_zcu104_base_202320_1/xilinx_zcu104_base_202320_1.xpfm
+12:03:46 INFO  : Checking for BSP changes to sync application flags for project 'queue_uart_cmd_handler'...
+12:05:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:05:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A81FE8A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A81FE8A-23727093-0"}' command is executed.
+12:05:50 INFO  : Device configured successfully with "F:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/queue_uart_cmd_handler/_ide/bitstream/hw_proj1_wrapper.bit"
+12:06:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351A81FE8A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351A81FE8A-23727093-0"}' command is executed.
+12:06:47 INFO  : 'fpga -state' command is executed.
+12:06:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:06:47 INFO  : Jtag cable 'Digilent Zybo Z7 210351A81FE8A' is selected.
+12:06:47 INFO  : 'jtag frequency' command is executed.
+12:06:47 INFO  : Context for 'APU' is selected.
+12:06:47 INFO  : Hardware design and registers information is loaded from 'F:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/hw/hw_proj1_wrapper.xsa'.
+12:06:47 INFO  : 'configparams force-mem-access 1' command is executed.
+12:06:47 INFO  : Context for 'APU' is selected.
+12:06:48 INFO  : 'stop' command is executed.
+12:06:48 INFO  : Sourcing of 'F:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/queue_uart_cmd_handler/_ide/psinit/ps7_init.tcl' is done.
+12:06:48 INFO  : 'ps7_init' command is executed.
+12:06:48 INFO  : 'ps7_post_config' command is executed.
+12:06:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:48 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+12:06:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:48 INFO  : The application 'F:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/queue_uart_cmd_handler/Debug/queue_uart_cmd_handler.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:06:48 INFO  : 'configparams force-mem-access 0' command is executed.
+12:06:48 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw F:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/hw/hw_proj1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+stop
+source F:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/queue_uart_cmd_handler/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+rst -processor
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow F:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/queue_uart_cmd_handler/Debug/queue_uart_cmd_handler.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:06:48 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:48 INFO  : 'con' command is executed.
+12:06:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:06:48 INFO  : Launch script is exported to file 'F:\Documents\GitHub\zynq-freertos-sandbox\2023.2\zybo-z7-20\hw-proj1\vitis_classic\queue_uart_cmd_handler_system\_ide\scripts\debugger_queue_uart_cmd_handler-default.tcl'
