@@ -80,7 +80,7 @@
 
 #define configTOTAL_HEAP_SIZE ( ( size_t ) ( 65536 ) )
 
-#define configMAX_TASK_NAME_LEN 10
+#define configMAX_TASK_NAME_LEN 32
 
 #define configIDLE_SHOULD_YIELD 1
 

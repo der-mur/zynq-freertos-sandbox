@@ -9,6 +9,7 @@ BEGIN OS
  PARAMETER SYSINTC_SPEC = *
  PARAMETER SYSTMR_DEV = *
  PARAMETER SYSTMR_SPEC = true
+ PARAMETER max_task_name_len = 32
  PARAMETER stdin = ps7_uart_0
  PARAMETER stdout = ps7_uart_0
 END
