@@ -1,5 +1,5 @@
 # My Zynq FreeRTOS Sandbox
-This is my sandbox for experimenting with the features offered by the AMD (Xilinx) FreeRTOS port. The main platform used is the Digilent Zybo-z7-20. The implemented system is quite simple, comprising a range of GPIO features (LEDs, buttons, switches, and test outputs for monitoring) and two UART communication channels. The IDE is Vivado/Vitis 2023.2 (Classic version). More details on the system can be found here (TBD). A list of projects is as follows:
+This is my sandbox for experimenting with the features offered by the AMD (Xilinx) FreeRTOS port. The main platform used is the Digilent Zybo-z7-20. The implemented system is quite simple, comprising a range of GPIO features (LEDs, buttons, switches, and test outputs for monitoring) and two UART communication channels. The IDE is Vivado/Vitis 2023.2 (Classic version). More details on the system can be found [below](#project-design-details). A list of projects is as follows (more to be added):
 
 - [Semaphore Project 1: UART command Handler](#semaphore-project-1-uart-command-handler)
 - [Queue Project 1: UART Command Handler](#queue-project-1-uart-command-handler)
