@@ -9,15 +9,22 @@ This is my sandbox for experimenting with the features offered by the AMD (Xilin
 ## Projects
 ### Semaphore Project 1: UART command Handler
 ABC
+![Tasks for Semaphore Project 1: UART command Handler](/assets/images/semaphore-uart-cmd-handler-tasks-96x96.png)
 
 ### Queue Project 1: UART Command Handler
 Abc
+![Tasks for Semaphore Project 1: UART command Handler](/assets/images/queue-uart-cmd-handler-tasks-96x96.png)
 
 ### Semaphore/Queue Project 2: HW Tick Timers and UART Command Handler
 Abc
+![Semaphore/Queue Project 2: HW Tick Timers](/assets/images/semaphore-tick-timers-tasks2-96x96.png)
+
+Abc
+![Semaphore/Queue Project 2: HW Tick Timers and UART Command Handler](/assets/images/semaphore-tick-timers-tasks1-96x96.png)
 
 ### Notifer Project 1: UART Comms Done Notifier System
 Abc
+![Notifer Project 1: UART Comms Done Notifier System](/assets/images/notifier-uart-comms-done-tasks-96x96.png)
 
 
 
