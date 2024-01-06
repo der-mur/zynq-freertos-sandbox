@@ -1,5 +1,5 @@
 # My Zynq FreeRTOS Sandbox
-This is my sandbox for experimenting with the features offered by the AMD (Xilinx) FreeRTOS port. The main platform used is the Digilent Zybo-z7-20. The implemented system is quite simple, comprising a range of GPIO features (LEDs, buttons, switches, and test outputs for monitoring) and two UART communication channels. The IDE is Vitis 2023.2 (Classic version). More details on the system can be found here (TBD). A list of projects is as follows:
+This is my sandbox for experimenting with the features offered by the AMD (Xilinx) FreeRTOS port. The main platform used is the Digilent Zybo-z7-20. The implemented system is quite simple, comprising a range of GPIO features (LEDs, buttons, switches, and test outputs for monitoring) and two UART communication channels. The IDE is Vivado/Vitis 2023.2 (Classic version). More details on the system can be found here (TBD). A list of projects is as follows:
 
 - [Semaphore Project 1: UART command Handler](#semaphore-project-1-uart-command-handler)
 - [Queue Project 1: UART Command Handler](#queue-project-1-uart-command-handler)
@@ -74,3 +74,47 @@ In this system, a low-priority task is added as a basic demonstration of notifie
 
 <br/><br/>
 ![Notifer Project 1: UART Comms Done Notifier System](/assets/images/notifier-uart-comms-done-tasks.png)
+
+
+<br/><br/>
+## Project Design Details
+### Progammable Logic
+**Main Vivado Design**
+![Main Vivado Design](/assets/images/vivado_prog_logic.png)
+
+<br/><br/>
+**AXI GPIO 0 CONFIGURATION**
+![AXI GPIO 0 CONFIGURATION](assets/images/vivado_prog_logic_axi_gpio_0.png)
+
+<br/><br/>
+**AXI GPIO 1 CONFIGURATION**
+![AXI GPIO 1 CONFIGURATION](assets/images/vivado_prog_logic_axi_gpio_1.png)
+
+<br/><br/>
+### Board Details
+**Zybo-Z7-20**
+![Zybo-Z7-20](assets/images/hw_proj2_board.png)
+
+<br/><br/>
+**AXI GPIO 0 CONNECTIONS**
+![AXI GPIO 0 CONNECTIONS](assets/images/hw_proj2_axi_gpio_0.png)
+
+<br/><br/>
+**AXI GPIO 1 CONNECTIONS**
+![AXI GPIO 1 CONNECTIONS](assets/images/hw_proj2_axi_gpio_1.png)
+
+<br/><br/>
+**BOARD GPIO**
+![BOARD GPIO](assets/images/hw_proj2_board_gpio.png)
+
+<br/><br/>
+**PMODS**
+![PMODS](assets/images/hw_proj2_board_pmods.png)
+
+<br/><br/>
+
+
+
+
+
+
