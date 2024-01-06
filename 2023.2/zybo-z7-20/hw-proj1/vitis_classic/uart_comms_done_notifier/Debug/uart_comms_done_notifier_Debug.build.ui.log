@@ -1,0 +1,60 @@
+2024-01-06T13:05:49.136599600255-13:05:49 **** Build of configuration Debug for project uart_comms_done_notifier ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-'Building file: ../src/utilities/cmd_handler64B.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/utilities/cmd_handler64B.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/sw/freertos_single_core_pfm/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/utilities/cmd_handler64B.d" -MT"src/utilities/cmd_handler64B.o" -o "src/utilities/cmd_handler64B.o" "../src/utilities/cmd_handler64B.c"
+000-'Finished building: ../src/utilities/cmd_handler64B.c'
+000-' '
+000-'Building file: ../src/uart/ps7_uart1_if.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart/ps7_uart1_if.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/sw/freertos_single_core_pfm/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/uart/ps7_uart1_if.d" -MT"src/uart/ps7_uart1_if.o" -o "src/uart/ps7_uart1_if.o" "../src/uart/ps7_uart1_if.c"
+000-'Finished building: ../src/uart/ps7_uart1_if.c'
+000-' '
+000-'Building file: ../src/ttc/ttc_if.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ttc/ttc_if.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/sw/freertos_single_core_pfm/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/ttc/ttc_if.d" -MT"src/ttc/ttc_if.o" -o "src/ttc/ttc_if.o" "../src/ttc/ttc_if.c"
+000-'Finished building: ../src/ttc/ttc_if.c'
+000-' '
+000-'Building file: ../src/scugic/ps7_scugic_if.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/scugic/ps7_scugic_if.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/sw/freertos_single_core_pfm/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/scugic/ps7_scugic_if.d" -MT"src/scugic/ps7_scugic_if.o" -o "src/scugic/ps7_scugic_if.o" "../src/scugic/ps7_scugic_if.c"
+000-'Finished building: ../src/scugic/ps7_scugic_if.c'
+000-' '
+000-'Building file: ../src/gpio/axi_gpio0_if.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio/axi_gpio0_if.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/sw/freertos_single_core_pfm/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/gpio/axi_gpio0_if.d" -MT"src/gpio/axi_gpio0_if.o" -o "src/gpio/axi_gpio0_if.o" "../src/gpio/axi_gpio0_if.c"
+000-'Finished building: ../src/gpio/axi_gpio0_if.c'
+000-' '
+000-'Building file: ../src/gpio/axi_gpio1_if.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio/axi_gpio1_if.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/sw/freertos_single_core_pfm/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/gpio/axi_gpio1_if.d" -MT"src/gpio/axi_gpio1_if.o" -o "src/gpio/axi_gpio1_if.o" "../src/gpio/axi_gpio1_if.c"
+000-'Finished building: ../src/gpio/axi_gpio1_if.c'
+000-' '
+000-'Building file: ../src/gpio/ps7_gpio_if.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gpio/ps7_gpio_if.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/sw/freertos_single_core_pfm/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/gpio/ps7_gpio_if.d" -MT"src/gpio/ps7_gpio_if.o" -o "src/gpio/ps7_gpio_if.o" "../src/gpio/ps7_gpio_if.c"
+000-'Finished building: ../src/gpio/ps7_gpio_if.c'
+000-' '
+000-'Building file: ../src/uart_comms_done_notifier.c'
+000-'Invoking: ARM v7 gcc compiler'
+000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/uart_comms_done_notifier.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IF:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/sw/freertos_single_core_pfm/freertos10_xilinx_domain/bspinclude/include -MMD -MP -MF"src/uart_comms_done_notifier.d" -MT"src/uart_comms_done_notifier.o" -o "src/uart_comms_done_notifier.o" "../src/uart_comms_done_notifier.c"
+000-'Finished building: ../src/uart_comms_done_notifier.c'
+000-' '
+000-'Building target: uart_comms_done_notifier.elf'
+000-'Invoking: ARM v7 gcc linker'
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LF:/Documents/GitHub/zynq-freertos-sandbox/2023.2/zybo-z7-20/hw-proj1/vitis_classic/freertos_single_core_pfm/export/freertos_single_core_pfm/sw/freertos_single_core_pfm/freertos10_xilinx_domain/bsplib/lib -o "uart_comms_done_notifier.elf"  ./src/utilities/cmd_handler64B.o  ./src/uart/ps7_uart1_if.o  ./src/ttc/ttc_if.o  ./src/scugic/ps7_scugic_if.o  ./src/gpio/axi_gpio0_if.o ./src/gpio/axi_gpio1_if.o ./src/gpio/ps7_gpio_if.o  ./src/uart_comms_done_notifier.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group
+000-'Finished building target: uart_comms_done_notifier.elf'
+000-' '
+000-'Invoking: ARM v7 Print Size'
+000-arm-none-eabi-size uart_comms_done_notifier.elf  |tee "uart_comms_done_notifier.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 115036	   3800	  89064	 207900	  32c1c	uart_comms_done_notifier.elf
+000-'Finished building: uart_comms_done_notifier.elf.size'
+000-' '
+00255-
+13:05:52 Build Finished (took 3s.176ms)
+

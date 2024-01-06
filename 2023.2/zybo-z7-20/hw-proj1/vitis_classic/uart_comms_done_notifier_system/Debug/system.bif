@@ -1,0 +1,7 @@
+/*freertos_single_core_pfm*/
+the_ROM_image:
+{
+ [bootloader] <freertos_single_core_pfm/boot/fsbl.elf>
+ <bitstream>
+ <elf,ps7_cortexa9_0>
+}
