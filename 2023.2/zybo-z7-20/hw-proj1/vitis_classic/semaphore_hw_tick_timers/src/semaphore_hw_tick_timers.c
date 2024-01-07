@@ -1,6 +1,6 @@
 /******************************************************************************
  * @Title		:	Semaphore HW Tick Timers
- * @Filename	:	semaphore_tick_timers.c
+ * @Filename	:	semaphore_hw_tick_timers.c
  * @Author		:	Derek Murray
  * @Origin Date	:	02/01/2024
  * @Version		:	1.0.0
