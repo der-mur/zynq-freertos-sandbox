@@ -5,7 +5,7 @@ This is my sandbox for experimenting with the features offered by the AMD (Xilin
 - [Queue Project 1: UART Command Handler](#queue-project-1-uart-command-handler)
 - [Semaphore/Queue Project 2: HW Tick Timers and UART Command Handler](#semaphorequeue-project-2-hw-tick-timers-and-uart-command-handler)
 - [Notifier Project 1: UART Comms Done Notifier System](#notifier-project-1-uart-comms-done-notifier-system)
-- [Simple Project 1: 10ms task, 20ms task]()
+- [Simple Project 1: 10ms task, 20ms task](#simple-project-1-10ms-task-20ms-task)
 <br/><br/>
 ## Projects
 ### Semaphore Project 1: UART command Handler
@@ -91,7 +91,7 @@ This simple project simply shows two tasks running, one at 10ms, the other at 20
 **Both tasks running:**
 ![Simple Project 1 - Tasks Running](/assets/images/simple-example1-tasks-running.png)
 <br/><br/>
-**Task2 suspended**
+**Task2 suspended:**
 ![Simple Project 2 - Tasks Running](/assets/images/simple-example1-task2-suspended.png)
 
 
