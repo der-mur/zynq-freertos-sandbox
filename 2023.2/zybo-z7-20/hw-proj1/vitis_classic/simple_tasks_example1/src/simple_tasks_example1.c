@@ -271,22 +271,6 @@ static void vSimpleTask2( void *pvParameters )
 
 
 
-void vApplicationIdleHook(void)
-{
-
-	psGpOutSet(PS_GP_OUT0); // TEST SIGNAL: Start of Idle Task
-
-	// Dummy delay so that GPIO signal can be clearly seen on scope.
-	for (int i = 500; i >=0; i--) {}
-
-	psGpOutClear(PS_GP_OUT0); // TEST SIGNAL: End of Idle Task
-}
-
-
-
-
-
-
 
 
 
@@ -388,5 +372,26 @@ void vLowLevelSysInit(void)
 			{}
 		}
 	}
+}
+
+
+
+/*****************************************************************************
+ * Function: vApplicationIdleHook( void )
+ *//**
+ *
+ * @brief	Idle Task hook; asserts PS_GP_OUT0 to show when IDLE is running.
+ *
+******************************************************************************/
+
+void vApplicationIdleHook(void)
+{
+
+	psGpOutSet(PS_GP_OUT0); // TEST SIGNAL: Start of Idle Task
+
+	// Dummy delay so that GPIO signal can be clearly seen on scope.
+	for (int i = 500; i >=0; i--) {}
+
+	psGpOutClear(PS_GP_OUT0); // TEST SIGNAL: End of Idle Task
 }
 
