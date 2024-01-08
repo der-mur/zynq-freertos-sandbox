@@ -12,6 +12,7 @@ BEGIN OS
  PARAMETER max_task_name_len = 32
  PARAMETER stdin = ps7_uart_0
  PARAMETER stdout = ps7_uart_0
+ PARAMETER use_idle_hook = true
 END
 
 
