@@ -5,6 +5,7 @@ This is my sandbox for experimenting with the features offered by the AMD (Xilin
 - [Queue Project 1: UART Command Handler](#queue-project-1-uart-command-handler)
 - [Semaphore/Queue Project 2: HW Tick Timers and UART Command Handler](#semaphorequeue-project-2-hw-tick-timers-and-uart-command-handler)
 - [Notifier Project 1: UART Comms Done Notifier System](#notifier-project-1-uart-comms-done-notifier-system)
+- [Simple Project 1: 10ms task, 20ms task]()
 <br/><br/>
 ## Projects
 ### Semaphore Project 1: UART command Handler
@@ -74,6 +75,24 @@ In this system, a low-priority task is added as a basic demonstration of notifie
 
 <br/><br/>
 ![Notifer Project 1: UART Comms Done Notifier System](/assets/images/notifier-uart-comms-done-tasks.png)
+
+
+### Simple Project 1: 10ms Task, 20ms Task
+**Brief Description:** Three tasks are running on the system:
+1. Idle
+2. 10ms Task (Toggles LED 1)
+3. 20ms Task (Toggles LED 2)
+
+[Source Code](/2023.2/zybo-z7-20/hw-proj1/vitis_classic/simple_tasks_example1/src)
+
+This simple project simply shows two tasks running, one at 10ms, the other at 20ms. It also shows how one task (Task 2) can be suspended by the other task. (SW0 on the board is used for this purpose.) 
+
+<br/><br/>
+**Both tasks running:**
+![Simple Project 1 - Tasks Running](/assets/images/simple-example1-tasks-running.png)
+<br/><br/>
+**Task2 suspended**
+![Simple Project 2 - Tasks Running](/assets/images/simple-example1-task2-suspended.png)
 
 
 <br/><br/>
